@@ -2,7 +2,7 @@
 color 0c
 title TOTAL WAR!!!
 echo.
-echo Welcome to Total War, created by Vincent Allain.
+echo Welcome to Total War, created by William Latham.
 echo.
 pause
 :players
@@ -21,7 +21,7 @@ echo.
 set /p name=Please type in your name (One word):
 if '%name%'=='' goto name
 rem Easter Egg:
-if '%name%'=='Vincent' goto win
+if '%name%'=='William' goto win
 :country
 cls
 set country=
